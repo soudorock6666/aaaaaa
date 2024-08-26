@@ -8,7 +8,6 @@ color: #00fe08;
 padding: 3px 3px;
 border: 1px solid black;
 cursor: pointer;
-display: flex;
 }
 .button:hover {
     background-color: rgb(99, 99, 99);
@@ -32,7 +31,6 @@ display: flex;
     width: 10%; /* dimensionamento das imagens */
     object-fit: cover; /* ajuste das imagens dentro da célula */
     border-radius: 10px; /* bordo arredondado */
-    display: flex;
 }
 .foto:hover{
     background-color: rgba(0, 0, 0, 0);
