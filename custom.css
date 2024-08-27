@@ -35,3 +35,11 @@ cursor: pointer;
   transition: all 0.3s ease-in-out;
    }
  
+   @media screen and (min-width: 600px) {
+.foto {
+  flex-direction: row;}
+  
+ }
+ @media screen and (min-width: 600px) {
+  .button {
+    flex-direction: row;}
