@@ -90,7 +90,7 @@ cursor: pointer;
   
  }
  .pont{
-  height: 2%;
+  height: 10%;
     width: 20%; /* dimensionamento das imagens */
     object-fit: cover; /* ajuste das imagens dentro da célula */
     border-radius: 10px; /* bordo arredondado */
