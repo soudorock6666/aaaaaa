@@ -28,8 +28,8 @@ cursor: pointer;
 }
 .foto {
   height: 100%;
-    width: 25%; /* dimensionamento das imagens */
-    object-fit: cover; /* ajuste das imagens dentro da célula */
+    width: 20%; /* dimensionamento das imagens */
+    object-fit: ; /* ajuste das imagens dentro da célula */
     border-radius: 20px; /* bordo arredondado */
 }
 .foto:hover{
