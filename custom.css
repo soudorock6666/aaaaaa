@@ -28,13 +28,13 @@ cursor: pointer;
 }
 .foto {
   height: 100%;
-    width: 15%; /* dimensionamento das imagens */
+    width: 25%; /* dimensionamento das imagens */
     object-fit: cover; /* ajuste das imagens dentro da célula */
     border-radius: 20px; /* bordo arredondado */
 }
 .foto:hover{
     background-color: rgba(0, 0, 0, 0);
-    transform: scale(1.5);
+    transform: scale(1.1);
   transition: all 0.3s ease-in-out;
    }
  
