@@ -9,7 +9,7 @@ margin: 20px
 cursor: pointer;
 }
 .button:hover {
-    background-color: rgba(17, 255, 0, 0.19);
+    background-color: rgba(255, 0, 128, 0.19);
     transform: scale(1);
   transition: all 0.3s ease-in-out;
    }
@@ -34,7 +34,7 @@ cursor: pointer;
 }
 .foto:hover{
     background-color: rgba(0, 0, 0, 0);
-    transform: scale(1);
+    transform: scale(1.5);
   transition: all 0.3s ease-in-out;
    }
  
@@ -69,5 +69,40 @@ cursor: pointer;
   width:50%;
   margin: 20px 20px;
   padding: 10px 10px;
+  
+  
  }
+ .img {
+  height: 100%;
+    width: 50%; /* dimensionamento das imagens */
+    object-fit: cover; /* ajuste das imagens dentro da célula */
+    border-radius: 10px; /* bordo arredondado */
+}
+.img:hover{
+    background-color: rgba(0, 0, 0, 0.149);
+    transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+   }
+ 
+   @media screen and (min-width: 600px) {
+.img {
+  flex-direction: row;}
+  
+ }
+ .pont{
+  height: 2%;
+    width: 20%; /* dimensionamento das imagens */
+    object-fit: cover; /* ajuste das imagens dentro da célula */
+    border-radius: 10px; /* bordo arredondado */
+}
+.pont:hover{
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+   }
+ 
+   @media screen and (min-width: 600px) {
+.pont {
+  flex-direction: row;}
+   
    
